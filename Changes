@@ -4,3 +4,7 @@ Revision history for Perl extension Math::MatrixReal::Aug.
 	- original version; created by h2xs 1.21 with options
 		-A -X -n Math::MatrixReal::Aug
 
+
+0.02  Sun Jun 23 13:15:00 CDT 2002
+        Problem with test fixed by removing test.
+
