@@ -1,0 +1,50 @@
+Math/MatrixReal/Aug version 0.01
+================================
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DESCRIPTION 
+
+This module provides some additional methods for Math::MatrixReal
+in the tradition of Math::MatrixReal::Ext1.  These include:
+
+augmentright() and augmentbelow(): make new (larger) matrices from old
+(smaller) ones. 
+
+fill() and newfill(): fill matrices with constants.
+
+applyfunction(): applies a specified function to each element of a
+matrix.
+
+largeexponential(): raises a matrix to a large, positive integer power
+relatively quickly.
+
+See Aug.pm for more information.
+
+Hopefully these will be integrated into Math::MatrixReal soon so that
+this module can be swept onto the dustbin of history.
+
+DEPENDENCIES
+
+This module requires Math::MatrixReal to be installed.  
+
+COPYRIGHT AND LICENCE
+
+This package is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+Copyright (C) 2002 Jacob C. Kesinger <kesinger@math.ttu.edu>
+
+Math::MatrixReal is 
+> Copyright (c) 1996, 1997 by Steffen Beyer.
+>              1999 by Rodolphe Ortalo.
+>              2001-2002 by Jonathan Leto.
+> All rights reserved.
+
